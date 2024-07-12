@@ -1,0 +1,612 @@
+body {
+    /*font-family: 'Proxima Nova', sans-serif;*/
+    /*font-family: "El Messiri", sans-serif;*/
+    background-color: #162831;
+}
+
+.container {
+    margin: 0 312px;
+}
+
+
+/* HEADER */
+
+
+header {
+    margin: 30px 0 50px 0;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header-item a {
+    font-family: 'Proxima Nova', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 50px;
+    transition: color .3s ease;
+}
+
+.header-item a:hover {
+    color: #018ABE;
+}
+
+.button-header {
+    background-color: #018ABE;
+    padding: 9px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Proxima Nova', sans-serif;
+    color: #FFFFFF;
+
+    transition: all .2s ease;
+}
+
+.button-header:hover {
+    background-color: #FFFFFF;
+    color: #018ABE;
+}
+
+
+/* MAIN */
+
+.main-inner {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+
+    text-align: center;
+}
+
+.main-inner h1 {
+    font-family: "El Messiri", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.main-inner-first {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-inner-first p {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "El Messiri", sans-serif;
+    color: #FFFFFF;
+    margin-right: 66px;
+    margin-left: 66px;
+}
+
+.main-inner-first img {
+    width: 28px;
+    height: 14px;
+}
+
+
+/* SEANS */
+
+.seans {
+    padding-bottom: 150px;
+}
+
+.seans-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.seans-title p {
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: "El Messiri", sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.seans-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seans-item {
+    background-image: url("images/seans-img.png");
+    width: 416px;
+    height: 258px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+
+    position: relative;
+}
+
+.left {
+    height: 540px;
+    border-bottom: #018ABE 7px solid;
+}
+
+.seans-right {
+    display: flex;
+}
+
+.seans-right div {
+    display: flex;
+    flex-direction: column;
+}
+
+.seans-item p {
+    font-family: "El Messiri", sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+}
+
+.one {
+    left: 40px;
+    top: 170px;
+    bottom: 30px;
+}
+
+.two {
+    left: 40px;
+    top: 170px;
+    bottom: 30px;
+}
+
+.three {
+    left: 40px;
+    top: 140px;
+    bottom: 30px;
+}
+
+.four {
+    left: 40px;
+    top: 140px;
+    bottom: 30px;
+}
+
+.main-p {
+    left: 50px;
+    right: 108px;
+    top: 456px;
+    bottom: 50px;
+}
+
+
+/* COMMENTS */
+
+.comments {
+    padding-bottom: 150px;
+}
+
+.comments-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comments-item {
+    background-color: #018ABE;
+    color: #FFFFFF;
+    padding: 60px;
+    border-radius: 10px;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: 60px;
+}
+
+.comments-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comments-item p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 140%;
+}
+
+.comments-item:nth-child(1),
+.comments-item:nth-child(3) {
+    transform: scale(0.8);
+    opacity: 0.4;
+}
+
+.comments-inner-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+
+/* INFO */
+
+
+.info-upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.info-title {
+    margin-bottom: 30px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.info-text {
+    width: 466px;
+    height: 170px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.left-info-up {
+    margin-right: 84px;
+}
+
+.info-lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.left-info-lower {
+    margin-right: 84px;
+}
+
+.right-info-lower {
+    margin-bottom: 150px;
+}
+
+
+/* PRICE */
+
+.price {
+    margin-bottom: 150px;
+}
+
+.price-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-content-items {
+    margin-right: 134px;
+}
+
+.price-content-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.price-content-item div {
+    display: flex;
+    align-items: center;
+}
+
+.price-content-item img {
+    width: 18px;
+    height: 9px;
+}
+
+.price-content-item h3 {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.price-content-item p {
+    margin-left: 200px;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.price-content-image {
+    text-align: center;
+}
+
+.price-content-image p {
+    font-family: "El Messiri", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+
+/* FOOTER */
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.footer-map iframe {
+    border-radius: 10px;
+    margin-right: 48px;
+}
+
+.footer-blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-block {
+    background-color: #018ABE;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    padding: 35px 45px;
+    width: 392px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.footer-block h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "El Messiri", sans-serif;
+}
+
+.footer-block div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+/*.footer-block div:nth-child(4){*/
+/*    margin-bottom: 40px;*/
+/*}*/
+
+.footer-block div img {
+    margin-right: 20px;
+}
+
+.footer-button {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 9px 15px;
+    color: #018ABE;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Proxima Nova', sans-serif;
+
+    transition: all 0.5s ease;
+}
+
+.footer-button:hover {
+    background-color: #018ABE;
+    color: #FFFFFF;
+}
+
+
+/* EXIT */
+
+
+.exit-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exit-content div p {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Proxima Nova', sans-serif;
+    color: #FFFFFF;
+}
+
+
+/* NEWS */
+
+
+.news-global {
+    margin-bottom: 120px;
+}
+
+.news-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-img {
+    margin-right: 24px;
+}
+
+.news-content {
+    background-image: url("images/news.png");
+    border-radius: 10px;
+    width: 416px;
+    height: 258px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.news-data {
+    background-color: #018ABE;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Proxima Nova', sans-serif;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.news-text {
+    font-family: "El Messiri", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #FFFFFF;
+    margin-top: 139px;
+    margin-left: 35px;
+}
+
+.news-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+.news-link:hover {
+    color: #018ABE;
+}
+
+
+/* NEWS-SEANS */
+
+
+.news-seans-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 161px;
+}
+
+.news-left {
+    margin-right: 134px;
+}
+
+.news-seans-data {
+    background-color: #018ABE;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 6px 12px;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+
+.news-seans-main {
+    color: #FFFFFF;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.news-seans-text {
+    font-family: 'Proxima Nova', sans-serif;
+    color: #b1aaaa;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+
+/* BLOG */
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/Rectangle.png");
+    width: 1298px;
+    height: 530px;
+    margin-bottom: 45px;
+}
+
+.blog-left {
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.blog-data {
+    background-color: #018ABE;
+    display: inline-block;
+    padding: 6px 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Proxima Nova', sans-serif;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.blog-title {
+    color: #FFFFFF;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.blog-text {
+    font-family: 'Proxima Nova', sans-serif;
+    color: #b1aaaa;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.blog-button {
+    background-color: #018ABE;
+    display: inline-block;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    transition: all .2s ease;
+}
+
+.blog-button:hover {
+    color: #018ABE;
+    background-color: #FFFFFF;
+}
+
+.blog-content:last-of-type {
+    margin-bottom: 120px;
+}
